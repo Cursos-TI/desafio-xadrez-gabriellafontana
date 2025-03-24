@@ -34,7 +34,20 @@ do
     printf("Diagonal direita\n");
     movimentoBispo++;
 } while (movimentoBispo <= 5);
-    
+
+// movimentar cavalo em L com loop aninhado para cima e direita
+int cima, movimento= 1;
+printf("Movimento do Cavalo\n");
+
+while(movimento--)
+{
+for(cima =0; cima <2; cima++){
+    printf("Cima\n");}
+{
+    printf("Direita\n");
+
+}
+}
 
      
 return 0;
